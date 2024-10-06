@@ -6,13 +6,13 @@ function Social() {
   return (
     <div className="flex items-center justify-center gap-5">
       <a href="javascript:void(0)" className="text-dark-6 hover:text-primary">
-        <FaceBook />
+        <FaceBook width="18" height="18" />
       </a>
       <a href="javascript:void(0)" className="text-dark-6 hover:text-primary">
-        <Twitter />
+        <Twitter width="18" height="18" />
       </a>
       <a href="javascript:void(0)" className="text-dark-6 hover:text-primary">
-        <Instagram />
+        <Instagram width="18" height="18" />
       </a>
     </div>
   );

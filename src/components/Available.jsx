@@ -48,7 +48,7 @@ function Available() {
                   <div className="flex items-center">
                     <Bedrooms />
                     <p>
-                      <span className="font-bold text-gray-900">
+                      <span className="font-bold text-gray-900 mr-1">
                         {item.bedrooms}
                       </span>
                       Bedrooms
@@ -57,7 +57,7 @@ function Available() {
                   <div className="flex items-center">
                     <Bathrooms />
                     <p>
-                      <span className="font-bold text-gray-900">
+                      <span className="font-bold text-gray-900 mr-1">
                         {item.bathrooms}
                       </span>
                       Bathrooms
