@@ -5,6 +5,9 @@ import Available from "./components/Available";
 import About from "./components/About";
 import CTA from "./components/CTA";
 import FAQ from "./components/FAQ";
+import TeamSection from "./components/TeamSection";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       <About />
       <CTA />
       <FAQ />
+      <TeamSection />
+      <Contact />
+      <Footer />
     </>
   );
 }

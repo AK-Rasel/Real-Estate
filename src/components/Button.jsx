@@ -1,10 +1,8 @@
-function Button({ className, content }) {
+function Button({ className, content, href }) {
   return (
-    <li>
-      <a href="https://links.tailgrids.com/play-download" className={className}>
-        {content}
-      </a>
-    </li>
+    <a href={href} className={`${className} cursor-pointer`}>
+      {content}
+    </a>
   );
 }
 

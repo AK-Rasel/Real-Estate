@@ -1,63 +1,8 @@
 import Bedrooms from "./SvgComnets/Bedrooms";
 import Bathrooms from "./SvgComnets/Bathrooms";
-const allData = [
-  {
-    id: 1,
-    houseName: "Greenwood Villa",
-    rent: 1200,
-    bedrooms: 3,
-    bathrooms: 2,
-    image:
-      "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    id: 2,
-    houseName: "Sunset Apartments",
-    rent: 1500,
-    bedrooms: 2,
-    bathrooms: 1,
-    image:
-      "https://images.unsplash.com/photo-1507086186665-15b18c201b3d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    id: 3,
-    houseName: "Maplewood Estates",
-    rent: 1800,
-    bedrooms: 4,
-    bathrooms: 3,
-    image:
-      "https://images.unsplash.com/photo-1600607686784-000c50c8474e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    id: 4,
-    houseName: "Pinehill Townhouse",
-    rent: 1350,
-    bedrooms: 3,
-    bathrooms: 2,
-    image:
-      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    id: 5,
-    houseName: "Cedar Park Cottage",
-    rent: 1100,
-    bedrooms: 2,
-    bathrooms: 1,
-    image:
-      "https://images.unsplash.com/photo-1594222552571-9e8b3d7dbb29?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    id: 6,
-    houseName: "Oakwood Residence",
-    rent: 1750,
-    bedrooms: 4,
-    bathrooms: 3,
-    image:
-      "https://images.unsplash.com/photo-1507084110434-428a0dba6b6b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-];
-
+import AllData from "../../public/AllData";
 function Available() {
+  const allData = AllData();
   return (
     <section>
       <div className="container">
@@ -105,7 +50,7 @@ function Available() {
                     <p>
                       <span className="font-bold text-gray-900">
                         {item.bedrooms}
-                      </span>{" "}
+                      </span>
                       Bedrooms
                     </p>
                   </div>
@@ -114,7 +59,7 @@ function Available() {
                     <p>
                       <span className="font-bold text-gray-900">
                         {item.bathrooms}
-                      </span>{" "}
+                      </span>
                       Bathrooms
                     </p>
                   </div>
